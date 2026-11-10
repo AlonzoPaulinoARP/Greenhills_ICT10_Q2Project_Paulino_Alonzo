@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: #ffffff
+}
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+.button-container {
+display: flex;
+gap: 10px;
+}
+.footer-custom h5 {
+    color: #ffffff;
+}
+footer {
+    bottom: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+.box {
+    background: rgb(241, 237, 237, 0.9);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/2198335539/vector/modern-abstract-high-speed-motion-effect-futuristic-dynamic-motion-technology-concept-banner.jpg?s=612x612&w=0&k=20&c=3atnZVVhsqpvRKAPhpXalk63UEE6T17j4R39AVwzKL0=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form {
+    text-align: center;
+}

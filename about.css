@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color: #ffffff
+}
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+.button-container {
+display: flex;
+gap: 10px;
+}
+.footer-custom h5 {
+    color: #ffffff;
+}
+footer {
+    bottom: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+body {
+    background-image: url(https://img.magnific.com/free-vector/glowing-grid-lines-geometric-wallpaper-neon-style_1017-53633.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.box {
+    background: rgb(241, 237, 237, 0.9);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
